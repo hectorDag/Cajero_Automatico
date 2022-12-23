@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Cajero_Automatico/cajero.css">
+    <title>Cajero Automatico</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <article class="area1">
+            <img src="/Cajero_Automatico/Imagenes/Mundo.webp" alt="Logo">
+            <button id="consulta" onclick="consulta()">Consultar Saldo</button>
+        </article>
+
+        <article class="area2">
+            <div class="subarea2">
+                <p id="saldo">Saldo Actual:</p>
+                <input id="cantidad" type="text">
+                <button id="transferencia" onclick="transferencia()">Transferir</button>
+                <button id="retiro" onclick="retiro()">Retirar</button>
+            </div>
+        </article> 
+
+        <script src="/Cajero_Automatico/main.js"></script>
+
+    </div>
+</body>
+</html>

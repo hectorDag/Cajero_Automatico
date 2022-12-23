@@ -1,0 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 100, 170);
+}
+
+/*INICIO DE SESION*/
+
+.sesion{
+    background-color: rgb(233, 232, 232);
+    width: 50%;
+    height: 700px;
+    margin: 20% auto;
+    padding-top: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25px auto;
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 5px auto;
+}
+
+#nombre{
+    display: block;
+    margin: 5px auto;
+}
+
+#contraseña{
+    display: block;
+    margin: 5px auto;
+}
+
+.iniciar{
+    display: block;
+    width: 15%;
+    height: 5%;
+    margin: 2px auto;
+    background-color: rgb(32, 93, 226);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
